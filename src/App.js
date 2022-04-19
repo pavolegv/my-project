@@ -3,7 +3,8 @@ import './App.css';
 import StarRating from './components/StarRaiting';
 
 function App() {
-  return (
+//      <StarRating totalStars={ 20 } style={{ backgroundColor: "lightblue" }} />
+return (
     <div className="App">
       <StarRating style={{ backgroundColor: "lightblue" }} />
       <header className="App-header">
